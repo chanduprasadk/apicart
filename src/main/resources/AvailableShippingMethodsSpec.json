@@ -1,0 +1,16 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "availableshippingmode": {
+        "results": {
+          "orderItems": {
+            "*": {
+              "availableShippingMethods": "@(1,orderItemId)"
+            }
+          }
+        }
+      }
+    }
+  }
+]

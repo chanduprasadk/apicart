@@ -1,0 +1,18 @@
+{
+   "getpromocode":{
+      "resourceId":"https://uat5int.academy.com:443/wcs/resources/store/10151/cart/@self/assigned_promotion_code",
+      "channel":{
+         "description":{
+            "value":"Used when operations performed from a desktop browser.",
+            "language":"-1"
+         },
+         "userData":null,
+         "channelIdentifer":{
+            "channelName":"Web Channel",
+            "uniqueID":"-1"
+         }
+      },
+      "resourceName":"cart",
+      "orderId":"550071032"
+   }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "addToCart": {
+        "message": "addToCart.message",
+        "ErrorMessage": "addToCart.errorMessage",
+        "exception": "addToCart.exceptionMessage",
+        "orderTotal": "addToCart.orderTotal",
+        "itemCount": "addToCart.itemCount",
+        "orderId": "addToCart.orderId",
+        "items": "addToCart.items",
+        "excMsg": {
+          "key": "addToCart.exceptionCode"
+        },
+        "totalQuantityAdded": "addToCart.totalQuantityAdded",
+        "isMultiSku": "addToCart.isMultiSku",
+        "isBopisItemAdded": "addToCart.isBopisItemAdded",
+        "totalCartQuantity": "addToCart.totalCartQuantity",
+        "cartURL": "addToCart.cartURL",
+        "urlPrefix": "addToCart.urlPrefix",
+        "urlSuffix": "addToCart.urlSuffix",
+        "displayPrice":  "addToCart.displayPrice"
+      }
+    }
+	},
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "addToCart": {
+        "checkoutURL": "=concat(@(1,urlPrefix),,@(1,urlSuffix))"
+      }
+    }
+	},
+  {
+    "operation": "remove",
+    "spec": {
+      "addToCart": {
+        "urlPrefix": "",
+        "urlSuffix": ""
+      }
+    }
+  }
+]

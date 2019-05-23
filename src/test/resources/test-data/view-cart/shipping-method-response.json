@@ -1,0 +1,55 @@
+{
+   "availableshippingmode":{
+      "results":{
+         "BOPUSAvailable":"true",
+         "orderItems":[
+            {
+               "orderItemId":"550271042",
+               "availableShippingMethods":[
+                  {
+                     "shippingType":"SG",
+                     "shipmodeDes":"SG",
+                     "estimatedFromDate":"2018-08-04",
+                     "estimatedToDate":"2018-08-06",
+                     "shipmodeId":"10551"
+                  },
+                  {
+                     "shippingType":"STS",
+                     "shipmodeDes":"STS",
+                     "estimatedFromDate":"2018-08-04",
+                     "estimatedToDate":"2018-08-06",
+                     "shipmodeId":"10551"
+                  },
+                  {
+                     "shippingType":"PICKUPINSTORE",
+                     "shipmodeDes":"PICKUPINSTORE",
+                     "estimatedFromDate":"2018-08-04",
+                     "estimatedToDate":"2018-08-06",
+                     "shipmodeId":"10551"
+                  }
+               ]
+            },
+             {
+          "orderItemId": "2975022",
+          "availableShippingMethods": [
+            {
+              "shippingType": "STS",
+              "shipmodeDes": "STS",
+              "estimatedFromDate": "",
+              "estimatedToDate": "",
+              "shipmodeId": "10560"
+            },
+            {
+              "shippingType": "SG",
+              "shipmodeDes": "SG",
+              "estimatedFromDate": "",
+              "estimatedToDate": "",
+              "shipmodeId": "10660"
+            }
+          ]
+        }
+         ],
+         "orderId":"550071032"
+      }
+   }
+}

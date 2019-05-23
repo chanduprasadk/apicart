@@ -1,0 +1,16 @@
+{
+	"addToCart": {
+		"ErrorMessage": "",
+		"exception": "",
+		"items": [
+			{
+			}
+		],
+		"totalQuantityAdded": "",
+		"totalCartQuantity": "",
+		"cartURL": "",
+		"checkoutURL": "",
+		"urlPrefix": "",
+		"urlSuffix": ""
+	}
+}

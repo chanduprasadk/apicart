@@ -1,0 +1,34 @@
+[
+    {
+        "lastName": "kumar",
+        "state": "TX",
+        "addressType": "Shipping",
+        "phone1": "9848022338",
+        "email1": "abhishek1@aso.com",
+        "addressId": "200680",
+        "country": "US",
+        "city": "Coppell",
+        "addressLine1": "8228",
+        "addressLine2": "Brookside Court",
+        "nickName": "20180827085133703",
+        "defaultAddress": true,
+        "zipCode": "75019",
+        "firstName": "abhishek"
+    },
+    {
+        "lastName": "kumar",
+        "state": "TX",
+        "addressType": "Shipping",
+        "phone1": "9848022338",
+        "email1": "abhishek1@aso.com",
+        "addressId": "200679",
+        "country": "US",
+        "city": "Coppell",
+        "addressLine1": "8228",
+        "addressLine2": "Brookside Court",
+        "nickName": "20180827085045709",
+        "defaultAddress": false,
+        "zipCode": "75018",
+        "firstName": "abhishek"
+    }
+]

@@ -1,0 +1,16 @@
+{
+  "items" : {
+    "productId" : "1042115",
+    "skuId" : "026991679",
+    "price" : "59.98000",
+    "quantity" : "1.0"
+  },
+  "orderId" : "7542008002",
+  "orderTotal" : "359.88000",
+  "totalAdjustment" : "0.00000",
+  "totalProductPrice" : "359.88000",
+  "currency" : "USD",
+  "totalOrderItem" : "1",
+  "productImageUrl" : "",
+  "productName" : ""
+}

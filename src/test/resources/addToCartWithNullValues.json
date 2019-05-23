@@ -1,0 +1,13 @@
+{
+  "addToCart" : {
+    "ErrorMessage" : "Error Message",
+    "exception": "com.ibm.commerce.exception.ECApplicationException:",
+    "items" : null,
+    "totalQuantityAdded" : null,
+    "totalCartQuantity" : null,
+    "cartURL" : null,
+    "checkoutURL" : null,
+    "urlPrefix" : null,
+    "urlSuffix" : null
+  }
+}

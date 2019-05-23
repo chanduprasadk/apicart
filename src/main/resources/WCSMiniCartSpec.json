@@ -1,0 +1,31 @@
+ [
+   {
+     "operation": "shift",
+     "spec": {
+       "*": {
+         "grandTotal": "orderTotal",
+         "recordSetCount": "itemCount",
+         "orderId": "orderId",
+         "orderItem": {
+           "*": {
+             "orderItemId": "items.itemId",
+             "partNumber": "items.skuId",
+             "productId": "items.productId",
+             "productName": "items.productName",
+             "unitPrice": "items.price",
+             "unitQuantity": "items.quantity"
+           }
+         }
+       }
+     }
+ },
+   {
+     "operation": "default",
+     "spec": {
+       "items": {
+         "productName": "",
+         "productImageUrl": ""
+       }
+     }
+  }
+ ]

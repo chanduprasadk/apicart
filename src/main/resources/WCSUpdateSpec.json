@@ -1,0 +1,20 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "*": {
+        "orderItem": {
+          "*": {
+          	"xitem_ErrorMessage":"orderItem.itemErrorMessage",
+            "orderItemId": "orderItem.orderItemId",
+            "xitem_newInventoryAvailableQuantity":"orderItem.itemNewInventoryAvailableQuantity"
+          }
+        },
+        "orderId": "orderId"
+      
+      }
+    }
+ }
+
+
+]

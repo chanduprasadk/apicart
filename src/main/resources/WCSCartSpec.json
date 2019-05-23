@@ -1,0 +1,33 @@
+[
+  {
+    "operation": "shift",
+    "spec": {
+      "*": {
+        "orderItem": {
+          "*": {
+            "quantity": ["orderItem.[&1].quantity","quantity.unitQuantity[]"],
+            "orderItemId": "orderItem.[&1].orderItemId",
+            "partNumber": "orderItem.[&1].skuId",
+            "productId": "orderItem.[&1].productId"
+          }
+        },
+        "orderId": "orderId",
+        "grandTotal": "orderTotal",
+        "totalAdjustment": "totalAdjustment",
+        "totalProductPrice": "totalProductPrice",
+        "grandTotalCurrency": "currency",
+        "recordSetCount": "totalOrderItem"
+      }
+    }
+ },
+  {
+    "operation": "modify-overwrite-beta",
+    "spec": {
+      "*": {
+        "totalCartQuantity": "=intSum(@(1,unitQuantity))"
+      }
+    }
+  }
+
+
+]

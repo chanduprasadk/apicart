@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "productId": "39878",
+      "quantity": "1",
+      "isGiftItem": false,
+      "isPickInStore": false,
+      "isBundle": false
+    },
+     {
+      "productId": "77586",
+      "quantity": "1",
+      "isGiftItem": false,
+      "isPickInStore": false,
+      "isBundle": false
+    }
+  ]
+}
